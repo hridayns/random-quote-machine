@@ -32,7 +32,7 @@ function changeBackground() {
 //Function to extract a random quote from the Random Famous Quotes API
 function getQuote() {
 var qurl = "https://andruxnet-random-famous-quotes.p.mashape.com/";
-var MASHAPE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //replace with actual API key obtained from Mashape
+var MASHAPE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';//replace with actual API key obtained from Mashape
 
   $.ajax({
       url: qurl,
@@ -43,8 +43,8 @@ var MASHAPE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //re
       },
       dataType: 'json',
       success: function(result) {
-        $('#quote').html(result.quote);
-        $('#author').html(" ~ " + result.author);
+        $('#quote').html(result[0].quote);
+        $('#author').html(" ~ " + result[0].author);
       },
       error: function(err) { alert(err); },
       beforeSend: function(xhr) {
