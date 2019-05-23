@@ -1,5 +1,7 @@
-A static page that generates a random quote and allows you to tweet it!
+# Usage
 
-Made for a FreeCodeCamp Project: https://www.freecodecamp.com/
+A single page that generates a random quote and allows you to tweet it!
 
-Demo link: http://hridayns.genieforyou.com/random-quote-machine/
+Demo link [here](https://hridayns.github.io/demos/Random-Quote-Demo/).
+
+Made as a [FreeCodeCamp](https://www.freecodecamp.com/) Project.

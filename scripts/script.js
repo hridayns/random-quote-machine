@@ -32,7 +32,7 @@ function changeBackground() {
 //Function to extract a random quote from the Random Famous Quotes API
 function getQuote() {
 var qurl = "https://andruxnet-random-famous-quotes.p.mashape.com/";
-var MASHAPE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';//replace with actual API key obtained from Mashape
+var MASHAPE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';//replace with actual API key obtained from Mashape
 
   $.ajax({
       url: qurl,
